@@ -12,7 +12,7 @@ class BaseContact:
     def contact(self):
         print(f"Wybieram numer {self.phone_private} i dzwonię do {self.first_name} {self.last_name}")
 
-    @property
+    
     def label_length(self):
         return len(self.first_name) + len(self.last_name) + 1  # +1 for the space between names
 
